@@ -1,0 +1,7 @@
+Thomson78\AnalysisMinorants.lean:66:15: warning: This simp argument is unused:
+  eval_prod
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [omega, Fin.prod_univ_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

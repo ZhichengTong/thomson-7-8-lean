@@ -1,0 +1,123 @@
+Thomson78\AnalysisFourRemainder.lean:13:5: warning: Variable name `hz₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:14:35: warning: Variable name `hu₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:42:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:54:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:54:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\AnalysisFourRemainder.lean:58:21: warning: Variable name `hz₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:59:20: warning: Variable name `hu₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:59:35: warning: Variable name `hu₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:87:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:99:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:99:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\AnalysisFourRemainder.lean:103:37: warning: Variable name `hz₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:104:20: warning: Variable name `hu₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:104:35: warning: Variable name `hu₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:132:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:144:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:144:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\AnalysisFourRemainder.lean:148:53: warning: Variable name `hz₃` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz₃
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:149:20: warning: Variable name `hu₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:149:35: warning: Variable name `hu₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:177:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:189:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:189:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\AnalysisFourRemainder.lean:194:5: warning: Variable name `hz₄` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz₄
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:194:20: warning: Variable name `hu₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Thomson78\AnalysisFourRemainder.lean:222:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:234:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisFourRemainder.lean:234:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

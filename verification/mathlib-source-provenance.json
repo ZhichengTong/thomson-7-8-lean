@@ -1,0 +1,10 @@
+{
+  "name": "mathlib",
+  "tag": "v4.35.0",
+  "archive_url": "https://codeload.github.com/leanprover-community/mathlib4/zip/refs/tags/v4.35.0",
+  "archive_sha256": "ec8a2f2298585a13cdc4d0423befb76e14a6114e8470a5506f72604cd6a563e0",
+  "source_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\mathlib",
+  "git_checkout": false,
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "note": "Original Mathlib lakefile.lean and lake-manifest.json retained unchanged; official content-hashed cache used."
+}

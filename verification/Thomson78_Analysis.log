@@ -1,0 +1,14 @@
+Thomson78\Analysis.lean:114:6: warning: This simp argument is unused:
+  omega_eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [derivative_mul, hermite_derivative_eval z v d hz, omega_derivative_eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Thomson78\Analysis.lean:180:28: warning: This simp argument is unused:
+  Pi.div_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sixthMoment, Pi.add_apply, Pi.sub_apply, Pi.pow_apply, id_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

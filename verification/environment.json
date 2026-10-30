@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-30",
+  "lean": "4.35.0",
+  "lean_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "mathlib": "v4.35.0",
+  "platform": "x86_64-w64-windows-gnu",
+  "build_command": "D:\\Python\\python.exe -X utf8 compile.py --rebuild-own --report verification/final_build.json Thomson78/Audit.lean",
+  "audit_command": "D:\\Python\\python.exe -X utf8 audit_project.py",
+  "proof_scope": "N=7,8 analytic and geometric arguments, conditional on explicit finite certificate data"
+}

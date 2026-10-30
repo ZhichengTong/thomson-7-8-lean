@@ -1,0 +1,20 @@
+Thomson78\SevenEnergy.lean:45:73: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenEnergy.lean:46:4: warning: Unused tactic linter: `first
+| contradiction
+| tauto` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenEnergy.lean:46:4: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Thomson78\SevenEnergy.lean:51:54: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenEnergy.lean:51:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Thomson78.Seven.candidate_pair_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Seven.candidate_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Seven.candidate_energy_radical' depends on axioms: [propext, Classical.choice, Quot.sound]

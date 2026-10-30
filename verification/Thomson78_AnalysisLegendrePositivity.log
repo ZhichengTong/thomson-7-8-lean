@@ -1,0 +1,7 @@
+'Thomson78.LegendreKernel.homogeneous_addition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.LegendreKernel.legendre_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.LegendreKernel.legendre_addition_R3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.LegendreKernel.kernel_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.LegendreKernel.averaged_fixed_label_matrix_posSemidef' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,85 @@
+{
+  "source_directory": "C:\\Users\\DELL\\Documents\\ChatGPT\\Thomson问题\\bilingual_7_8_20261030",
+  "files": [
+    {
+      "path": "thomson_7_8_en.tex",
+      "sha256": "5cc1fe94ae58f70d86e32d276b9aae5ba0a4c3ae13ef6ea05558346c677654bb"
+    },
+    {
+      "path": "thomson_7_8_zh.tex",
+      "sha256": "74ae1a8ff204abcc6593dd4e16a03141d4bd31fb67cb281fe31fc4737329f62e"
+    },
+    {
+      "path": "en/ai_declaration.tex",
+      "sha256": "abbee414f467e39c2d433a8316b4a222bd2478af1ce4eda72782671b7a0a32ea"
+    },
+    {
+      "path": "en/common.tex",
+      "sha256": "041a5b83bd61dae2a957358c023fc6bb332c56a6c485a9a21aa94d4a0b062e2f"
+    },
+    {
+      "path": "en/ending.tex",
+      "sha256": "3604e87540054e26ced0a0d85c043dfdb223fc7f7a64cf24b367c76690cdb5d8"
+    },
+    {
+      "path": "en/introduction.tex",
+      "sha256": "1e0b25169899cd008a63e2518fdadf87405726cd508997eff2340c6adaa4a47d"
+    },
+    {
+      "path": "en/n7_enhancement.tex",
+      "sha256": "be021345d8183d06dbf9782194c284ddd3dbf86821fb23d53a848bb2758035d6"
+    },
+    {
+      "path": "en/n7_section.tex",
+      "sha256": "d344a23b239096981b3d18f2bfefb20ccd7cdc96fd1edb50ae17ed68833beba4"
+    },
+    {
+      "path": "en/n8_section.tex",
+      "sha256": "9042f89f444e36d67fbb75cda38a940166d313b5f40e4f73ec90258fc04b2644"
+    },
+    {
+      "path": "en/preamble.tex",
+      "sha256": "fede180dd2daaef9c9ed720401665a1e245542f61ad0fa6afac3e4330b8c033d"
+    },
+    {
+      "path": "en/references.tex",
+      "sha256": "26f76a841a8a3bfa3c0e7f467bf26b64283acdc3d3b6770e89a1aaabe452e784"
+    },
+    {
+      "path": "zh/ai_declaration.tex",
+      "sha256": "f015dcf0043462a9e1717be756a0cd27d1aa4743d3cc79aecbc16c32a81bfba0"
+    },
+    {
+      "path": "zh/common.tex",
+      "sha256": "0aebb79309288b163358983cd798e2b0048c9eb5cb36a29977abbca616644412"
+    },
+    {
+      "path": "zh/ending.tex",
+      "sha256": "007581bf832f1036adacc22deb377b19edbc1c70dacec1c8dd9a8dd223e31d12"
+    },
+    {
+      "path": "zh/introduction.tex",
+      "sha256": "44bee801ce1cef889efe8ece05a354ca68b09710e29e8c953eb8bde44fbe3766"
+    },
+    {
+      "path": "zh/n7_enhancement.tex",
+      "sha256": "44efd6bff8d75d6533cdf70df9dca25440906a837ea1b21c3a3e01a5deb2c692"
+    },
+    {
+      "path": "zh/n7_section.tex",
+      "sha256": "5fa614ad0aff93d8a5b489991e0c966c428d8ad0d6c23ba5589ba706cd31b54f"
+    },
+    {
+      "path": "zh/n8_section.tex",
+      "sha256": "a23258b5f58d3b23b736997788050ce1ac867a14e5cc3ac7c201770d1496e982"
+    },
+    {
+      "path": "zh/preamble.tex",
+      "sha256": "607ba30e8b483d1357d6d7280834f4f118344e88879c2ed1574a1a2c9ed4d2af"
+    },
+    {
+      "path": "zh/references.tex",
+      "sha256": "26f76a841a8a3bfa3c0e7f467bf26b64283acdc3d3b6770e89a1aaabe452e784"
+    }
+  ]
+}

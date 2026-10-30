@@ -1,0 +1,1 @@
+'Thomson78.four_point_gram_det_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

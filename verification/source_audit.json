@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "lean_version": "4.35.0",
+  "mathlib_version": "v4.35.0",
+  "module_count": 49,
+  "source_lines": 5894,
+  "checked_theorem_declarations_including_generated": 1858,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sources": [
+    {
+      "path": "Thomson78.lean",
+      "sha256": "bbc956d1ad245754e72af0d7fc5aa0a459a5e5b31228595367955c8c553b09b7",
+      "lines": 13
+    },
+    {
+      "path": "Thomson78/Analysis.lean",
+      "sha256": "dc8b88f8f2e4e01a50771d8e7fa1433ead76d2e469d4e1da1d99e83f963f2a14",
+      "lines": 244
+    },
+    {
+      "path": "Thomson78/AnalysisAudit.lean",
+      "sha256": "e98a6b5479544dd4fc3a32287de2241015996be93765084bc325b914520550b0",
+      "lines": 26
+    },
+    {
+      "path": "Thomson78/AnalysisCoulomb.lean",
+      "sha256": "eac6beb8c3e9ec9ae11281c433d3254119a99653563d92d9575264d2106413dc",
+      "lines": 99
+    },
+    {
+      "path": "Thomson78/AnalysisEightMinorant.lean",
+      "sha256": "43d2a1c0e9da7ce5db422088c94f0ba0178749880acda175209606b8e51d18cb",
+      "lines": 58
+    },
+    {
+      "path": "Thomson78/AnalysisEightRecovery.lean",
+      "sha256": "ccbe0531253b7fc2ef70748613e4ebb6d3e7f4f2587679d8b3ed6c76e794fc43",
+      "lines": 91
+    },
+    {
+      "path": "Thomson78/AnalysisFamily.lean",
+      "sha256": "538d381352ff91d780a0c8a0ca44c8380e01936121cf85acbfedcfeefc562064",
+      "lines": 67
+    },
+    {
+      "path": "Thomson78/AnalysisFourRemainder.lean",
+      "sha256": "988765d854f5b6059f232c03977180f0a464ea16df33075dee37c76e5463c60a",
+      "lines": 269
+    },
+    {
+      "path": "Thomson78/AnalysisHermite.lean",
+      "sha256": "5ab3efcc4ceb44efa69a29d40737f96b5165debcbe7c4a8c4b003cee307ec475",
+      "lines": 150
+    },
+    {
+      "path": "Thomson78/AnalysisInterpolationUnique.lean",
+      "sha256": "a2fc501f4430fd4339717a21f9071b082e5acec3ecfcbf05fce7b8e524edb1db",
+      "lines": 76
+    },
+    {
+      "path": "Thomson78/AnalysisLegendreKernel.lean",
+      "sha256": "b6139762ad95e3ce8d660863be107e5d97b5bae6dd5af8e90b9bf92fa653638a",
+      "lines": 240
+    },
+    {
+      "path": "Thomson78/AnalysisLegendrePositivity.lean",
+      "sha256": "b3de0b46d7c94db5d5965b602d6095ac4439457a622fe8db5e70bad7f2d1b988",
+      "lines": 112
+    },
+    {
+      "path": "Thomson78/AnalysisMinorants.lean",
+      "sha256": "61de380408ff66526c592c24bd4eff1876248443cd969fd66858b80d13fda7d1",
+      "lines": 132
+    },
+    {
+      "path": "Thomson78/AnalysisRecovery.lean",
+      "sha256": "c32df0a282b02bd052e325a03df2dc869cdff077e3d494424f16583834ce8ded",
+      "lines": 65
+    },
+    {
+      "path": "Thomson78/AnalysisRolle.lean",
+      "sha256": "620bf186d9c43e740446329f56a83814dde0544cf596e56cb9c3f61b2112cb94",
+      "lines": 137
+    },
+    {
+      "path": "Thomson78/Audit.lean",
+      "sha256": "815436812dffe2c18f2a303b2540a17a1410028537ae3386dcb9b4b93609fc6c",
+      "lines": 22
+    },
+    {
+      "path": "Thomson78/Basic.lean",
+      "sha256": "3cc43783b5065546dbd0830e32893b6a7c74a3b7b34e706c7cd6c4c637cd9912",
+      "lines": 28
+    },
+    {
+      "path": "Thomson78/Certificate.lean",
+      "sha256": "7c481c038d98bca6e629cba11c0aba15cec943a17c9ec94950cf53fbe8d1d5a3",
+      "lines": 64
+    },
+    {
+      "path": "Thomson78/CoordinateCertificate.lean",
+      "sha256": "28d635959ea13749d5cdf6593c577d5ef8e8c8524f8cde59d756c1e40191eec8",
+      "lines": 155
+    },
+    {
+      "path": "Thomson78/EightCandidate.lean",
+      "sha256": "c3081e2a6af51f9d24fca6030f093bed67a74b8357ae95e8d7cc18037b25454a",
+      "lines": 96
+    },
+    {
+      "path": "Thomson78/EightEnergy.lean",
+      "sha256": "ac67188006a8b8759f7c40b825598dfad49a3b7604e22ba7c14a00a958d3e0c3",
+      "lines": 61
+    },
+    {
+      "path": "Thomson78/EightGeometry.lean",
+      "sha256": "9c54c31b4b5b0c6753867c8bf066572e5363dcccaad10716e72135e5838afca9",
+      "lines": 193
+    },
+    {
+      "path": "Thomson78/EightGeometryAxioms.lean",
+      "sha256": "eb520a3f94bcab3c17556493b0b1fd63a5f5412f3ccf31d56842822f23b702bf",
+      "lines": 24
+    },
+    {
+      "path": "Thomson78/EightGeometryGraph.lean",
+      "sha256": "7463b617dc7f5c70d0a41760f6756d48fe42142c42227fc36495d71bef049b8d",
+      "lines": 95
+    },
+    {
+      "path": "Thomson78/EightGeometryRigidity.lean",
+      "sha256": "285cec847ca3ddab37fe75ac8fc91f1f22fc0639569bd9fbbfd7a3857bd8cf6c",
+      "lines": 304
+    },
+    {
+      "path": "Thomson78/EightMatrixRigidity.lean",
+      "sha256": "3080db4970270f4e962b388f55ca5cde86e60d34ce7defd398a42dfc0f897b63",
+      "lines": 150
+    },
+    {
+      "path": "Thomson78/EightParameter.lean",
+      "sha256": "3a8f7f89ff16a824d4bf83c5be1feef8b8534a21ca7f6942959b0035d27ee1d3",
+      "lines": 272
+    },
+    {
+      "path": "Thomson78/Energy.lean",
+      "sha256": "1cf0d8573cf6446a74ba1ce57138250f1db8ebe43d2602a2c82e0beb3272d71b",
+      "lines": 78
+    },
+    {
+      "path": "Thomson78/FiniteCertificate.lean",
+      "sha256": "55ccb3c127bb7ffdb51dec4bbe3decfc4e66bdceeabe9e09f377c30332c05f2d",
+      "lines": 85
+    },
+    {
+      "path": "Thomson78/FivePoint.lean",
+      "sha256": "69da6fdf9c2e5a3b53d5c4bf7465bfc62dfb508474e9bb5ac668cc35b0c4bda3",
+      "lines": 294
+    },
+    {
+      "path": "Thomson78/GramRelations.lean",
+      "sha256": "17f38fcc0f0bcccac1e124b4237d46e90e3e7d3a495de084bd115cc06d3b5431",
+      "lines": 33
+    },
+    {
+      "path": "Thomson78/Harmonics.lean",
+      "sha256": "aa7f4bb5c272f5aacef909ac89366dd244b4ee36ded85b29ec7e7fa8f4194622",
+      "lines": 157
+    },
+    {
+      "path": "Thomson78/Isometry.lean",
+      "sha256": "258a92c6e5591edc46075d86552ab75e8c64a62421e41b7fb187e793a9112902",
+      "lines": 111
+    },
+    {
+      "path": "Thomson78/Main.lean",
+      "sha256": "f5bd2f469a0e025be0b62b09ee36865c34aa21f8a86daa8c4d05d3ffd2fdd7d8",
+      "lines": 131
+    },
+    {
+      "path": "Thomson78/Moments.lean",
+      "sha256": "0926194743df54f63c2c61e747ebe8a1b289e0f9c488aba46ff6cd1ef8e6bf37",
+      "lines": 78
+    },
+    {
+      "path": "Thomson78/Parity.lean",
+      "sha256": "1ec584d7bbd60e0c6b87523e1d3f0d331d12f824eeb6cab942d63a4ff3af3ca4",
+      "lines": 35
+    },
+    {
+      "path": "Thomson78/PolynomialRecovery.lean",
+      "sha256": "a78f2ea000414b1bea06bffa7be3b7efc51ceb80c4fc26648a7c71490a75896b",
+      "lines": 52
+    },
+    {
+      "path": "Thomson78/Residue.lean",
+      "sha256": "9bd3ca8b9cbe23f656fa05e8501b4ac83a284b61390b644976406ab662aefc67",
+      "lines": 51
+    },
+    {
+      "path": "Thomson78/Seven.lean",
+      "sha256": "95f1193369ca395b31a7d7629e2cc911f45190eff1e3ca8c25eadb699ae1cf2a",
+      "lines": 156
+    },
+    {
+      "path": "Thomson78/SevenConfiguration.lean",
+      "sha256": "1b02f038e7fb12f85a26771146ac8256d56692c04edc09d759cea2149b65b302",
+      "lines": 274
+    },
+    {
+      "path": "Thomson78/SevenDimension.lean",
+      "sha256": "e161d844afb39d3aa1ea8ab08c2c94fadf71f01b0cf472be30e1c0394df93462",
+      "lines": 71
+    },
+    {
+      "path": "Thomson78/SevenEnergy.lean",
+      "sha256": "176cbc12a555ad219a0b22fcc973e614665734c35fee2d23554a6a91b9cf63ac",
+      "lines": 118
+    },
+    {
+      "path": "Thomson78/SevenMinorant.lean",
+      "sha256": "f858f8b8ed55d27efabcba8455b52105208a0c85e3b33d78c584ae5a8b3255aa",
+      "lines": 122
+    },
+    {
+      "path": "Thomson78/SevenMinorantBound.lean",
+      "sha256": "a8502386657c875d6a68d072f7fa64058381b80c183c3692e6bd7e0596f9442b",
+      "lines": 171
+    },
+    {
+      "path": "Thomson78/SevenMinorantRemainder.lean",
+      "sha256": "76152d1a3c48990f1b1f498f59da5913e63b554206c9c14c1ee904661ba8e5a2",
+      "lines": 198
+    },
+    {
+      "path": "Thomson78/SevenMinorantUnique.lean",
+      "sha256": "40dd98faabe48c2bb9e13d29cecad6a5b3c01e9db21430be60fd95306b72109f",
+      "lines": 117
+    },
+    {
+      "path": "Thomson78/SevenPentagon.lean",
+      "sha256": "d07f6c97cf92c80f8db76272564e368eda6dc925182b42810c295e443973e28f",
+      "lines": 138
+    },
+    {
+      "path": "Thomson78/SevenRigidity.lean",
+      "sha256": "3f4b1ee52e055c1ad0d60bfcf7c088ed15f6e2e67d288dc7d5baddf4f1f0f7a2",
+      "lines": 132
+    },
+    {
+      "path": "Thomson78/SphereEnergy.lean",
+      "sha256": "26a760dcb03c82b86b3f1377a8c6404f9930c58d5e63fd70db127401812030b4",
+      "lines": 49
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,1 @@
+'Thomson78.polynomial_two_coordinates_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

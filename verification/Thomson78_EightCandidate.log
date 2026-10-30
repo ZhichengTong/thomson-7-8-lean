@@ -1,0 +1,2 @@
+'Thomson78.Eight.rigidity_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Eight.rigidity_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]

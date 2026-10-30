@@ -1,0 +1,5 @@
+'Thomson78.Harmonics.P3_addition_R3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Harmonics.P3_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Harmonics.P3_matrix_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Harmonics.P3_weighted_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Harmonics.feature_kernel_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]

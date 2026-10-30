@@ -1,0 +1,2 @@
+'Thomson78.Coordinates.seven_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Coordinates.eight_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]

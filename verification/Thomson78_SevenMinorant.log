@@ -1,0 +1,9 @@
+Thomson78\SevenMinorant.lean:109:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorant.lean:113:49: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorant.lean:113:49: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

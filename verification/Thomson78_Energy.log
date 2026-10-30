@@ -1,0 +1,1 @@
+'Thomson78.energy_bound_and_equality' depends on axioms: [propext, Classical.choice, Quot.sound]

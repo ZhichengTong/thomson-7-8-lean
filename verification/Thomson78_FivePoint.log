@@ -1,0 +1,2 @@
+'Thomson78.FivePoint.average_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.FivePoint.kernel_finite_population' depends on axioms: [propext, Classical.choice, Quot.sound]

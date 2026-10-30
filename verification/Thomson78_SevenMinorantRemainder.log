@@ -1,0 +1,36 @@
+Thomson78\SevenMinorantRemainder.lean:40:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:54:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:54:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\SevenMinorantRemainder.lean:87:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:101:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:101:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\SevenMinorantRemainder.lean:134:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:148:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:148:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Thomson78\SevenMinorantRemainder.lean:181:14: warning: Unused tactic linter: `assumption` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:195:24: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantRemainder.lean:195:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

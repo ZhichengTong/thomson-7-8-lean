@@ -1,0 +1,23 @@
+最终信任边界独立复核
+日期：2026-10-30
+复核模块：CoordinateCertificate、Main、Certificate、Moments、GramRelations、SphereEnergy。
+
+1. 交付主入口
+Thomson78.Coordinates.seven_minimum 与 eight_minimum 的数据 μ₁、μ₃、q、lam 在任意构型 x 之前固定。外部计算输入是 μ₁>0、μ₃≥0，以及有限个实系数多项式满足 Identity。Identity 的变量为所有点的三个笛卡尔坐标，形式为
+  E_h − τ = μ₁ |Σ_i x_i|² + μ₃ Σ_{ij} P₃(x_i·x_j)
+            + Σ_k q_k² + Σ_i lam_i (|x_i|²−1).
+τ 已固定为对应候选构型的 Coulomb 能量。此输入是有限多项式恒等式及实数符号条件，不包含任意构型上的最优性或刚性结论。
+
+2. 输入至数学结论的证明
+CoordinateCertificate.evaluate_identity 通过环同态代入证明上述有限恒等式的构型版本，并由单位球面关系消去 lam 项。Harmonics 中27维三次调和特征的多项式恒等式及平方和证明 A₃≥0；μ₁>0 与等号迫使质心为零。解析插值模块证明 Coulomb 核的下界多项式及其精确接触集合。接着 N=7 的构型条件、N=8 的置换与线性等距分类均由几何模块给出。这里的分析、调和正性、评价规则和几何分类均有独立的 Lean 证明。
+
+3. 能量定义域
+主入口对 Admissible x 陈述，即各点范数为1且点彼此不同。SphereEnergy 证明此时异点内积属于 [-1,1)，实际距离倒数能量与内积核 pairEnergy 一致。Lean 对0的逆定义不会进入主定理的异点距离项。
+
+4. 其他接口的定位
+Main 与 FiniteCertificate 是中间组合接口，可分别接收已求值恒等式或矩模型及其实现关系；它们的条件应连同定理陈述阅读。交付的主结论采用 Coordinates 下的入口，避免以构型相关的实现关系作为最终外部输入。Moments 证明加权 Gram 矩阵及相关非负性；GramRelations 证明 Gram 行列式关系，均为可用于展开计算证书的数学工具。
+
+5. 计算数据与内核审计
+具体计算证书可通过给定 q、lam、μ₁、μ₃ 并证明 Identity 来实例化。当前主入口对应用户将计算机辅助部分视为正确的要求：条件中明确保留有限证书数据；不将未加载的具体计算文件称为已经核验。#print axioms 的标准公理清单用于排查 sorryAx 和新增公理；对显式假设的范围，本复核另行检查了上述主入口类型。
+
+结论：最终 Coordinates 主入口的外部信任范围集中在有限计算证书；从该输入至球面能量下界和等号几何的推理均由 Lean 证明组合。

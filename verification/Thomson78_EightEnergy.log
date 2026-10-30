@@ -1,0 +1,3 @@
+'Thomson78.Eight.candidate_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Eight.candidate_pairEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Eight.candidate_tStar_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

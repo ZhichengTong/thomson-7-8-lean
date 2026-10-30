@@ -1,0 +1,2 @@
+'Thomson78.seven_certificate_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.eight_certificate_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]

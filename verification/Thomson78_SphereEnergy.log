@@ -1,0 +1,1 @@
+'Thomson78.coulombEnergy_eq_pairEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]

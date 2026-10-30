@@ -1,0 +1,74 @@
+[
+  {
+    "name": "plausible",
+    "repository": "https://github.com/leanprover-community/plausible",
+    "revision": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+    "archive_url": "https://codeload.github.com/leanprover-community/plausible/zip/dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+    "archive_sha256": "a462fc41ded46d252a6e6a86d35fefa917f56741c2d0f8b658708cf58ceb48a8",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\plausible",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "LeanSearchClient",
+    "repository": "https://github.com/leanprover-community/LeanSearchClient",
+    "revision": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+    "archive_url": "https://codeload.github.com/leanprover-community/LeanSearchClient/zip/d6b4c7be5be75ec4917c873ac50c756dc1436372",
+    "archive_sha256": "d9c786c2f31e5a68e5e11a7c8c0591d6509ceb6081093c83cd16ecb517e69686",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\LeanSearchClient",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "importGraph",
+    "repository": "https://github.com/leanprover-community/import-graph",
+    "revision": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+    "archive_url": "https://codeload.github.com/leanprover-community/import-graph/zip/a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+    "archive_sha256": "76f8ea13cc3fc149fb88be7de69fe0fe95f485b8835210a27104f71d407c7b6b",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\importGraph",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "proofwidgets",
+    "repository": "https://github.com/leanprover-community/ProofWidgets4",
+    "revision": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+    "archive_url": "https://codeload.github.com/leanprover-community/ProofWidgets4/zip/df72b022e558978a1c50264cfc4d7fec86fa8e04",
+    "archive_sha256": "17f82d30cd5d95f4013e1b29fbbcc01f6767afe0d641baa04aff039eeef86aaa",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\proofwidgets",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "aesop",
+    "repository": "https://github.com/leanprover-community/aesop",
+    "revision": "4a174c490d8707121c4a9290800489f105d85e07",
+    "archive_url": "https://codeload.github.com/leanprover-community/aesop/zip/4a174c490d8707121c4a9290800489f105d85e07",
+    "archive_sha256": "37471c211f53f2d117615d3932e6b3f90debe7389039f00f522ac7918c28fc05",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\aesop",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "Qq",
+    "repository": "https://github.com/leanprover-community/quote4",
+    "revision": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+    "archive_url": "https://codeload.github.com/leanprover-community/quote4/zip/dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+    "archive_sha256": "94c79488d21eb68fa331468e96d3850edcdce9fb636eebc259f59e51b9cd64fc",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\Qq",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "batteries",
+    "repository": "https://github.com/leanprover-community/batteries",
+    "revision": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+    "archive_url": "https://codeload.github.com/leanprover-community/batteries/zip/66e469188fe07963e5cf666c7d4433f45b8131c5",
+    "archive_sha256": "ee3ec2232768e10a9cef66daafe29826ba71b46bb5aae89a1bbe37f61c201359",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\batteries",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  },
+  {
+    "name": "Cli",
+    "repository": "https://github.com/leanprover/lean4-cli",
+    "revision": "c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+    "archive_url": "https://codeload.github.com/leanprover/lean4-cli/zip/c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+    "archive_sha256": "4157a8eb155053c497abc5526a50bd8560bfee37f76cd66e369ad460c3ade04e",
+    "local_path": "F:\\Smale5Formalization-v16\\.lake\\packages\\Cli",
+    "materialization": "official GitHub codeload source archive; no .git metadata"
+  }
+]

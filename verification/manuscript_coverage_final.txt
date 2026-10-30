@@ -1,0 +1,55 @@
+Thomson N=7,8 非计算机辅助部分：最终数学覆盖说明
+2026-10-30
+
+本说明对照 bilingual_7_8_20261030 的中英文稿与 Thomson78 源文件。计算机辅助输入是固定的有限代数证书；解析不等式、均匀采样恒等式、矩阵正性和几何分类均由数学证明承担。
+
+1. 最终主入口与有限证书的边界
+
+CoordinateCertificate.lean 中 Coordinates.seven_minimum、Coordinates.eight_minimum 是当前最终主入口。输入为：固定的实系数多项式 q_k、lambda_i；mu1>0、mu3≥0；以及有限多项式恒等式 Coordinates.Identity。该恒等式在量化任意配置 x 之前给定，所有变量都是 N 个点的三个实际笛卡尔坐标。求值同态、单位球面关系、能量多项式、质心平方和三次 Legendre 项的求值都在文件内证明。因此最终主入口没有“对每个配置已知能量恒等式”“对每个配置已知矩阵 PSD”或几何唯一性假设。N7 的主结论给出 Configuration，再由 Seven.rigidity 与 Seven.rigidity_finrank 得到五边双锥和维数；N8 的主结论直接给出重编号和共同线性等距变换。
+
+Main.lean 保留较早的已求值矩阵证书接口；FiniteCertificate.lean 保留一般轨道系数接口。这些接口的数学假设均是显式的。最终 CoordinateCertificate 以直接坐标平方和恒等式消除了它们的逐配置语义假设。实际数值证书的系数和因子并未载入后验证存在性；按本任务约定，它们是被接受的计算机辅助部分。交付时应把“给定的有限证书正确”准确对应到 Identity 及其标量符号，而不是泛指所有尚未说明的数学结论。
+
+2. 解析下界与等号条件
+
+AnalysisRolle、AnalysisHermite 证明带重数的 Rolle 定理和插值余项；AnalysisCoulomb 对所有阶数证明 Coulomb 导数公式、正性和严格单调性。四个双节点 Hermite 插值多项式的显式构造、次数、值、导数和唯一性由 Analysis、AnalysisInterpolationUnique 实现。稿件实际使用的 N7 端点三重条件另有完整实例证明。
+
+Energy、SphereEnergy 证明逐对严格下界与证书非负项推出总能量下界，等号强制所有非对角内积在接触集并且质心为零。球面、互异点由 Admissible 表达；稿件对碰撞配置取 +∞ 的约定没有编码为扩展实数，最终定理针对有限能量配置。
+
+3. N=7 的完整链条
+
+SevenMinorant、SevenMinorantRemainder、SevenMinorantBound、SevenMinorantUnique 完成 h7 与 H7 的插值条件、严格余项、接触集合、H7 的精确八次次数、gamma7>0、增强系数最大性的充要条件及唯一性。最大系数必要性用已证明的九阶余项得到，没有额外 Taylor 假设。
+
+Seven、SevenConfiguration、SevenPentagon、SevenRigidity 依次完成行计数、邻点向量递推、五周期、五个不同顶点、余下两个对跖点、正交单位框架和标准 2πk/5 五边形。SevenDimension 证明张成空间维数为 3。SevenEnergy 构造具体候选，证明无序接触对数 (1,10,5,5) 以及正文根式能量。刚性定理适用于任意实内积空间，不调用其他文献的全局最优结论。
+
+4. N=8 的完整链条及方法差异
+
+EightParameter 证明 Phi 的导数严格单调、两个有理端点符号、tStar 的存在唯一性及在 (0,1) 内的唯一极小；AnalysisEightMinorant 给出实际八次 h8 的严格下界、四个接触值和斜率。
+
+N8 行计数采用一个与稿件不同、已经完整证明的路线：EightGeometryRigidity.row_counts 调用 multiplicities_from_interval，对任意 39/125<t<8/25，以自然数计数总和 7、零行和及 sqrt(2) 的有理界推出 (2,1,2,2)。有限情况由 Lean 内核证明。实际几何与主定理不依赖 CoefficientSeparation 或 tStar 不属于 Q(sqrt(2))。
+
+EightGeometryGraph、EightGeometryRigidity 完成短循环排除、八循环及完整循环 Gram 表。EightCandidate 证明候选实现、等距分类及三维张成。EightMatrixRigidity 通过 PSD 双线性型的分离商实现抽象 Gram 矩阵，进一步证明稿件矩阵形式的刚性和精确秩 3。EightEnergy 完成接触对数 (8,4,8,8) 与 Phi 能量。
+
+5. 五点平均、所有实际使用的核与八次截断
+
+FivePoint.average 以 Fin k ↪ Fin N 的全部注入定义均匀平均。splitInjection、sum_restrict 证明扩张数为 (N-k)_l；average_restrict 覆盖所有 k+l≤N，five_average_two/three/four 给出五点到二、三、四点的边际一致性。average_const 和 average_relabel 给出常数归一化及 S5 不变性。five_edge_average_unordered、five_edge_moment 证明正文的 binom(N,2) 边矩公式；polynomial_energy_average 将其与实际 pairEnergy 绑定。
+
+FivePoint.double_sum_split 分离任意剩余点双和的对角项和异点项。kernel_finite_population 在正文标签 0,1,2、3、4 的位置给出精确系数 (N-3) 与 (N-3)(N-4)，适用于任何 K(j,j)=1 的核。因此这两个系数和低点数边际不是外部数值输入。
+
+AnalysisLegendreKernel 明确给出 ell=0,...,8 的归一化 Legendre 多项式，验证三项递推和实谐波特征加法恒等式；AnalysisLegendrePositivity 对这九阶核证明 PSD、任意加权和非负、固定标签矩阵以及固定标签平均矩阵 PSD。该范围完整覆盖稿件八次截断中使用的所有 F_ell，不只覆盖 A1、A3。Harmonics 的三次无迹张量表示同时为最终主入口提供 A3≥0；质心恒等式提供 A1。
+
+Moments 证明标量矩、(1-u01²) 局部化矩和向量 Gram 局部化矩的一般正性；GramRelations 证明四点 Gram 行列式为零及其加权平均关系。将这些定理以五点注入为采样集即可得到正文 M、D、T、Am=0 的普遍数学论证。具体 S5 轨道代表、各多项式的 degree≤8 系数表以及矩阵块条目表仍属于有限表的编码层，未逐个定义整张轨道枚举表。最终坐标 Identity 使用实际多项式，不依赖一个未证明的逐配置轨道求值假设。将原始矩阵证书展开为这份坐标 Identity 时，应交付对应的有限系数及平方因子；这项有限展开的正确性正是最终接口要求接受或检查的证书内容。
+
+6. N8 两坐标恢复
+
+Analysis、AnalysisFamily、AnalysisEightRecovery 证明第六矩的具体公式、导数下界 >3/20，以及实际 h8 在候选族上的值和一阶导数匹配。AnalysisRecovery 证明非负可微函数内点取零的导数为零，并据此恢复两个残差坐标。PolynomialRecovery.polynomial_two_coordinates_zero 进一步以多项式矩阵族、PSD 性和核方程推出可微性、配对非负性及候选点配对为零；其输入保留家族上的有限残差求值恒等式。该恢复定理与最终 Coordinates.Identity 是两个可分别检查的接口；主最优性定理使用完整 Identity。
+
+7. 与稿件逐字命题覆盖的区别
+
+以下三项是范围区别，不作为主定理隐藏输入：
+（a）稿件一般任意多重数 Hermite 插值的存在唯一性没有整体编码为一个任意维数同构定理；实际用到的四双节点及 N7 三重端点均已证明，余项定理具有一般重数形式。
+（b）稿件“对所有 ell≥0”的球谐加法公式在本项目实现到 ell=8，完整覆盖本证书的截断范围。
+（c）稿件 tStar 不属于 Q(sqrt(2)) 的命题未完整实现。Residue 已证明一般整闭约化原理及具体模 23 多项式无根，但未绑定局部环、消元根与 tStar。主刚性使用第 4 节已证明的区间计数路线，因此没有把该数域结论留作假设。若要求逐字保留这条独立数域命题的 Lean 版本，它是明确的独立后续目标。
+
+8. 验证依据
+
+关键模块均使用 Lean 内核证明；本审查未发现 sorry、admit、用户声明 axiom、unsafe 或 native_decide。已记录的关键定理公理输出为标准的 propext、Classical.choice、Quot.sound。最终完整编译和公理扫描以 verification 内父任务生成的总日志为准。FivePoint 最后独立编译通过，包含边际、无序边矩、能量平均及 finite-population 全部版本。

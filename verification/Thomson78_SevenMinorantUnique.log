@@ -1,0 +1,15 @@
+Thomson78\SevenMinorantUnique.lean:64:54: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\SevenMinorantUnique.lean:64:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Thomson78.Seven.H7_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+Thomson78\SevenMinorantUnique.lean:92:13: warning: This simp argument is unused:
+  derivative_C_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [P, omega7, omega_derivative_eval, hdp i]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Thomson78.Seven.h7_unique' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+Thomson78\EightMatrixRigidity.lean:41:4: warning: Unused tactic linter: `change (G *ᵥ gramVector z) ⬝ᵥ gramVector (x + y) = _` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Thomson78.Eight.matrix_circulant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Eight.circulantGram_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Thomson78.Eight.matrix_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]

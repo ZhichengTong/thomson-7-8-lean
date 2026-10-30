@@ -1,0 +1,6 @@
+Thomson78\AnalysisLegendreKernel.lean:143:2: warning: Unused tactic linter: `all_goals ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Thomson78\AnalysisLegendreKernel.lean:143:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
