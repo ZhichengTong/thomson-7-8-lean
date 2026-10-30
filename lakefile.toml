@@ -1,0 +1,11 @@
+name = "thomson78"
+version = "0.1.0"
+defaultTargets = ["Thomson78"]
+
+[[lean_lib]]
+name = "Thomson78"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0"
